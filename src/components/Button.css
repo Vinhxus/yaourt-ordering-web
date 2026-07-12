@@ -1,0 +1,11 @@
+.nav-but:hover{
+    animation: popup-t 0.5s ease-out both
+}
+
+@keyframes popup-t {
+    from {
+        transform: translateY(0);
+    } to {
+        transform: translateY(-25%);
+    }
+}
