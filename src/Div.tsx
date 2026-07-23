@@ -11,12 +11,11 @@ export default function Div({ name, price, onClick, isSelected}: ProductProps){
 
     return (
         <button 
-            className={`flex flex-col Div px-2 py-1 ${isSelected ? 'text-amber-400 bg-[#FB877D]' : ''}`}
+            className={`flex flex-col Div px-2 py-1 ${isSelected ? 'text-amber-400 bg-[#d63425]' : ''}`}
             onClick = {onClick}
         >
-            <span> {name} </span>
-            <span> {price} </span>
-
+            <span className="font-bold"> {name} </span>
+            <span className="font-bold"> {price} </span>
         </button>
     )
 }
